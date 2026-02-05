@@ -14,7 +14,7 @@
           <Linear>
 
             <!-- REQUIRED -->
-            <Duration>00:00:12</Duration>
+            <Duration>00:10:00</Duration>
 
             <!-- STRONGLY RECOMMENDED -->
             <TrackingEvents>
@@ -38,7 +38,7 @@
                 scalable="true"
                 maintainAspectRatio="true">
 <![CDATA[
-https://122.176.101.10:4433/video_640x480.mp4
+https://storage.googleapis.com/gvabox/media/samples/stock.mp4
 ]]>
               </MediaFile>
             </MediaFiles>
