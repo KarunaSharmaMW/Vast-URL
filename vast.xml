@@ -1,24 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VAST version="4.2">
+<VAST version="3.0">
   <Ad id="1">
     <InLine>
+
       <AdSystem>Custom</AdSystem>
       <AdTitle>My Video Ad</AdTitle>
 
+      <!-- REQUIRED -->
+      <Impression><![CDATA[https://example.com/impression]]></Impression>
+
       <Creatives>
-        <Creative>
+        <Creative sequence="1">
           <Linear>
+
+            <!-- REQUIRED -->
             <Duration>00:00:12</Duration>
+
+            <!-- STRONGLY RECOMMENDED -->
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://example.com/start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/q1]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/q2]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/q3]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/complete]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://gen21-bms.com]]></ClickThrough>
+            </VideoClicks>
 
             <MediaFiles>
               <MediaFile
                 delivery="progressive"
                 type="video/mp4"
                 width="640"
-                height="480">
-                <![CDATA[
-                https://122.176.101.10:4433/video_640x480.mp4
-                ]]>
+                height="480"
+                scalable="true"
+                maintainAspectRatio="true">
+<![CDATA[
+https://122.176.101.10:4433/video_640x480.mp4
+]]>
               </MediaFile>
             </MediaFiles>
 
