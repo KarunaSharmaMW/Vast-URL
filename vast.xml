@@ -6,27 +6,39 @@
       <AdSystem>Custom</AdSystem>
       <AdTitle>My Video Ad</AdTitle>
 
-      <!-- REQUIRED -->
-      <Impression><![CDATA[https://example.com/impression]]></Impression>
+      <Impression><![CDATA[
+https://gen21-bms.com/impression
+]]></Impression>
 
       <Creatives>
         <Creative sequence="1">
           <Linear>
 
-            <!-- REQUIRED -->
+            <!-- Video is 1 minute -->
             <Duration>00:01:00</Duration>
 
-            <!-- STRONGLY RECOMMENDED -->
             <TrackingEvents>
-              <Tracking event="start"><![CDATA[https://example.com/start]]></Tracking>
-              <Tracking event="firstQuartile"><![CDATA[https://example.com/q1]]></Tracking>
-              <Tracking event="midpoint"><![CDATA[https://example.com/q2]]></Tracking>
-              <Tracking event="thirdQuartile"><![CDATA[https://example.com/q3]]></Tracking>
-              <Tracking event="complete"><![CDATA[https://example.com/complete]]></Tracking>
+              <Tracking event="start"><![CDATA[
+https://gen21-bms.com/start
+]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[
+https://gen21-bms.com/q1
+]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[
+https://gen21-bms.com/q2
+]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[
+https://gen21-bms.com/q3
+]]></Tracking>
+              <Tracking event="complete"><![CDATA[
+https://gen21-bms.com/complete
+]]></Tracking>
             </TrackingEvents>
 
             <VideoClicks>
-              <ClickThrough><![CDATA[https://gen21-bms.com]]></ClickThrough>
+              <ClickThrough><![CDATA[
+https://gen21-bms.com
+]]></ClickThrough>
             </VideoClicks>
 
             <MediaFiles>
