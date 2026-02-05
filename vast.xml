@@ -14,7 +14,7 @@
           <Linear>
 
             <!-- REQUIRED -->
-            <Duration>00:10:00</Duration>
+            <Duration>00:01:00</Duration>
 
             <!-- STRONGLY RECOMMENDED -->
             <TrackingEvents>
