@@ -7,7 +7,7 @@
       <AdTitle>My Video Ad</AdTitle>
 
       <Impression><![CDATA[
-https://gen21-bms.com/impression
+https://gen21-sms.com/impression
 ]]></Impression>
 
       <Creatives>
@@ -19,25 +19,25 @@ https://gen21-bms.com/impression
 
             <TrackingEvents>
               <Tracking event="start"><![CDATA[
-https://gen21-bms.com/start
+https://gen21-sms.com/start
 ]]></Tracking>
               <Tracking event="firstQuartile"><![CDATA[
-https://gen21-bms.com/q1
+https://gen21-sms.com/q1
 ]]></Tracking>
               <Tracking event="midpoint"><![CDATA[
-https://gen21-bms.com/q2
+https://gen21-sms.com/q2
 ]]></Tracking>
               <Tracking event="thirdQuartile"><![CDATA[
-https://gen21-bms.com/q3
+https://gen21-sms.com/q3
 ]]></Tracking>
               <Tracking event="complete"><![CDATA[
-https://gen21-bms.com/complete
+https://gen21-sms.com/complete
 ]]></Tracking>
             </TrackingEvents>
 
             <VideoClicks>
               <ClickThrough><![CDATA[
-https://gen21-bms.com
+https://gen21-sms.com
 ]]></ClickThrough>
             </VideoClicks>
 
