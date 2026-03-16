@@ -15,7 +15,7 @@ https://gen21-sms.com/impression
           <Linear>
 
             <!-- Video is 1 minute -->
-            <Duration>00:01:00</Duration>
+            <Duration>00:00:15</Duration>
 
             <TrackingEvents>
               <Tracking event="start"><![CDATA[
@@ -50,7 +50,7 @@ https://gen21-sms.com
                 scalable="true"
                 maintainAspectRatio="true">
 <![CDATA[
-https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
 ]]>
               </MediaFile>
             </MediaFiles>
