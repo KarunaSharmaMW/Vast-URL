@@ -15,7 +15,7 @@ https://gen21-sms.com/impression
           <Linear>
 
             <!-- Video is 1 minute -->
-            <Duration>00:00:05</Duration>
+            <Duration>00:00:15</Duration>
 
             <TrackingEvents>
               <Tracking event="start"><![CDATA[
@@ -50,7 +50,7 @@ https://gen21-sms.com
                 scalable="true"
                 maintainAspectRatio="true">
 <![CDATA[
-https://samplelib.com/lib/preview/mp4/sample-5s.mp4
+https://samplelib.com/lib/preview/mp4/sample-15s.mp4
 ]]>
               </MediaFile>
             </MediaFiles>
