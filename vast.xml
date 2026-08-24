@@ -43,15 +43,16 @@ https://gen21-sms.com
 
             <MediaFiles>
               <MediaFile
-                delivery="progressive"
-                type="video/mp4"
-                width="640"
-                height="480"
-                scalable="true"
-                maintainAspectRatio="true">
+    delivery="progressive"
+    type="video/mp4"
+    width="640"
+    height="480"
+    scalable="true"
+    maintainAspectRatio="true">
 <![CDATA[
 https://imgsrc.pub/video/640x480
 ]]>
+</MediaFile>
               </MediaFile>
             </MediaFiles>
 
