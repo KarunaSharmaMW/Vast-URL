@@ -15,7 +15,7 @@ https://gen21-sms.com/impression
           <Linear>
 
             <!-- Video is 1 minute -->
-            <Duration>00:00:15</Duration>
+            <Duration>00:00:30</Duration>
 
             <TrackingEvents>
               <Tracking event="start"><![CDATA[
@@ -49,9 +49,7 @@ https://gen21-sms.com
                 height="300"
                 scalable="true"
                 maintainAspectRatio="true">
-<![CDATA[
-https://samplelib.com/lib/preview/mp4/sample-15s.mp4
-]]>
+<![CDATA[https://player.cloudinary.com/embed/?cloud_name=dsiyja1vo&public_id=amul_kool_xaid6j]]>
               </MediaFile>
             </MediaFiles>
 
